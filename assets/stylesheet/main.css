@@ -1,0 +1,561 @@
+/*
+===============================================
+СБРОС
+===============================================
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+
+body {
+	font-family: Roboto, sans-serif;
+	background-color: #e7e7e7;
+}
+}
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+  width: 100%;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  clear: both;
+  *zoom: 1;
+}
+header {
+
+}
+.fon {
+	position: relative;
+	width: 100%;
+}
+.menu {
+  text-align: right;
+  position: relative;
+  top: 104px;
+  left: 5px;
+  font-size: 23px;
+  height: 0;
+}
+
+.menu ul {
+	margin: 0;
+
+}
+.menu li {
+	width: 170px;
+  	display: inline-table;
+  	vertical-align: top;
+  	height: 80px;
+  	text-align: center;
+
+}
+
+.menu li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #f0f0f0;
+	font-weight: bold;
+	line-height:80px;
+	position:relative;
+	z-index:999;
+}
+.menu > ul > li  a::before {
+	opacity:0;
+	z-index:-1;
+}
+.menu > ul > li  a::before {
+	opacity: 1;
+}
+.menu li:last-child {
+  margin-right: 41px;
+}
+.menu li a:hover {
+  padding: 5px 0;
+  border-top: 3px solid #f0f0f0;
+  border-bottom: 3px solid #f0f0f0;
+  transition: all 200ms ease-out;
+  color: #ccc;
+}
+.contacts1 {
+	position: relative;
+	bottom: 966px;
+	left: 50px;
+	text-decoration: none;
+	font-size: 35px;
+	color: #f0f0f0;
+	border: 5px outset #f0f0f0; 
+	padding: 10px;
+}
+
+
+header h1 {
+	position: relative;
+	font-size: 70px;
+	text-transform: uppercase;
+	color: #f0f0f0;
+	bottom: 614px;
+	left: 6px;
+	font-weight: bold;
+	text-align: center;
+	height: 0;
+}
+header h2 {
+	position: relative;
+	font-size: 24.7px;
+	text-transform: uppercase;
+	color: #ccc;
+	bottom: 538px;
+	left: 6px;
+	text-align: center;
+	height: 0;
+
+}
+.btn {
+	background: rgba(255,255,255,0);
+	border: 3px solid #f0f0f0;
+	position: relative;
+	color: #f0f0f0;
+	bottom: 433px;
+	left: 785px;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 30px;
+	box-shadow: 0 0 3px rgba(255,255,255,0);
+	text-decoration: none;
+}
+.btn a {
+
+}
+.btn:hover {
+	background-color: rgba(76,38,201,0.1);
+	box-shadow: 0 0 100px rgba(76,38,201,0.5);
+	transition: all 300ms ease-out;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1920px;
+	outline: 0px solid #ccc;
+	margin: 0 auto; 
+
+}
+.wrapper2 {
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.pack {
+	font-size: 15px;
+	float: left;
+	text-align: justify;
+	width: 300px;
+	margin: 20px;
+}
+.full {
+	font-size: 15px;
+	float: left;
+	text-align: justify;
+	width: 300px;
+	margin: 20px;
+}
+.price {
+	font-size: 15px;
+	float: left;
+	text-align: justify;
+	width: 300px;
+	margin: 20px 0 80px 20px;
+}
+.advantages img {
+	width: 130px;
+	height: 130px;
+	margin: 50px 90px 20px 90px;
+
+}
+.advantages h2 {
+	font-size: 19px;
+	text-transform: uppercase;
+	color: #3d4347;
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+.advantages p {
+	font-size: 15px;
+	color: #656b72;
+	line-height: 1.5;
+	
+}
+.what {
+	color: #f0f0f0;
+
+}
+#what2 {
+	width: 100%;
+	
+	max-width: 1060px;
+}
+.what h1{
+	font-size: 33px;
+	position: relative;
+	display: inline-block;
+	color: rgba(255,255,255,0.85);
+	top: 175px;
+	left: 359px;
+	text-transform: uppercase;
+	height: 0;
+	
+}
+
+.des {
+	position: relative;
+	display: inline-block;
+	top: 310px;
+	left: -236px;
+	color: rgba(255,255,255,0.85);
+	width: 400px;
+	text-align: right;
+	height: 0;
+}
+.des img {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 350px;
+	top: 79px;	
+}
+
+.des h2 {
+	font-size: 23px;
+	font-weight: bold;
+
+}
+strong {
+	font-weight: 900;
+	font-size: 25px;
+}
+.des p {
+
+	position: absolute;
+	width: 450px;
+	line-height: 1.5;
+	top: 0px;
+	left: 448px;
+	text-align: justify;
+
+
+}
+.dos {
+	position: relative;
+	display: inline-block;
+	top: 780px;
+	left: 134px;
+	
+	width: 400px;
+	text-align: right;
+	height: 0;
+}
+.dos img {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 350px;
+	top: 59px;	
+}
+.dos h2 {
+	font-size: 23px;
+	font-weight: bold;
+
+}
+.dos p {
+	position: absolute;
+	width: 450px;
+	line-height: 1.5;
+	top: 0px;
+	left: 448px;
+	text-align: justify;
+
+
+}
+.use {
+	text-align: right;
+	position: relative;
+	display: inline-block;
+	top: 940px;
+	left: -265px;
+	width: 400px;
+	height: 0;
+}
+.use h2 {
+	font-size: 23px;
+	font-weight: bold;
+
+}
+.use img {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 347px;
+	top: 47px;	
+}
+.use p {
+	position: absolute;
+	width: 450px;
+	line-height: 1.5;
+	top: 0px;
+	left: 448px;
+	text-align: justify;
+}
+.time {
+	text-align: right;
+	position: relative;
+	display: inline-block;
+	top: 1080px;
+	left: 139px;
+	width: 400px;
+	height: 0;
+}
+.time h2 {
+	font-size: 23px;
+	font-weight: bold;
+
+}
+.time img {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 347px;
+	top: 84px;	
+}
+.time p {
+	position: absolute;
+	width: 450px;
+	line-height: 1.5;
+	top: 0px;
+	left: 448px;
+	text-align: justify;
+}
+.btn2 {
+    background: #5432c2;
+	position: relative;
+	color: #f0f0f0;
+	top: 1303px;
+	left: 26px;
+	font-size: 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 15px 30px 15px 30px;
+}
+.btn2:hover {
+	box-shadow: 0 0 20px rgba(255,255,255,0.5);
+	transition: all 150ms ease-out;
+}
+.advantages2 h1 {
+	font-size: 30px;
+	font-weight: normal;
+	margin: 40px 0 20px 0;
+	text-align: center;
+	width: 1060px;
+	color: #3d4347;
+
+}
+.advantages2 p {
+	font-size: 20px;
+	text-align: center;
+	width: 1060px;
+	color: #656b72;
+}
+.advantages2 li {
+	text-align: center;
+	width: 175px;
+	font-size: 18px;
+	margin: 13px 13px 50px 13px;
+	line-height: 1.4;
+	float: left;
+	color: #656b72;
+
+}
+.advantages2 li:first-child {
+	margin-left: 40px;
+
+}
+.advantages2 li:last-child {
+	margin-right: 0;
+
+}
+.advantages2 li img {
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+}
+.advantages2 h2 {
+	text-align: center;
+	font-size: 28px;
+	width: 908px;
+	margin: 917px 88px 88px 88px;
+	color: #3d4347;
+}
+.booking {
+	width: 400px;
+	margin-left: 90px;
+}
+.booking h1 {
+	font-size: 46px;
+	font-weight: bold;
+	color: #3d4347;
+	margin-bottom: 20px;
+}
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+  font: 300 16px/22px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.register-group label {
+  color: #656b72;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.register-group input,
+.register-group textarea {
+  width: 100%;
+}
+.register-group select {
+  height: 34px;
+  width: 60px;
+}
+.register-group textarea {
+  height: 78px;
+}
+.btn1 {
+	background: #5432c2;
+	position: relative;
+	color: #f0f0f0;
+	top: 5px;
+	left: 0;
+	font-size: 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 15px 30px 15px 30px;
+	text-transform: uppercase;
+}
+.btn1:hover {
+	box-shadow: 0 0 20px rgba(255,255,255,0.5);
+	transition: all 150ms ease-out;
+}
+
+#slider {
+	bottom: 500px;
+	left: 570px;
+}
+.reviews h1 {
+	font-size: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #3d4347;
+}
+.reviews img {
+	width: 230px;
+	height: 330px;
+	margin: 50px 30px;
+}
+.rewiews p {
+	font-size: 25px;
+}
+
+.about h1 {
+	margin: 800px 0 30px 0;  
+	font-size: 50px;
+	text-align: justify;
+	color: #3d4347;
+}
+.about h2 {
+	font-size: 25px;
+	text-align: justify;
+	color: #3d4347;
+	margin-bottom: 20px;
+}
+.about p {
+	font-size: 20px;
+	text-align: justify;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	color: #656b72;
+}
+footer {
+	background-color: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 233px;
+}
+footer h2 {
+	border: 2px outset #fff;
+	width: 300px;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #f0f0f0;
+	margin: 75px;
+	position: absolute;
+	text-align: center;
+	padding: 20px;
+}
+footer p {
+	float: right;
+	font-size: 15px;
+	margin: 75px;
+	color: #f0f0f0;
+}
