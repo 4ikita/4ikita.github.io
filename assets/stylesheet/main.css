@@ -178,7 +178,7 @@ header h2 {
 }
 
 .wrapper {
-	width: 100%
+	width: 100%;
 	max-width: 1920px;
 	outline: 0px solid #ccc;
 	margin: 0 auto; 
